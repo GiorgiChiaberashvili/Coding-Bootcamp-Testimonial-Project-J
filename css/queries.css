@@ -1,0 +1,125 @@
+@media (max-width: 1024px) {
+
+
+    body {
+        background-position: auto;
+        background-size: 15rem;
+    }
+
+    .slides {
+        flex-direction: column-reverse;
+    }
+
+    .woman_photo {
+        width: unset;
+        height: unset;
+    }
+
+    .tanya {
+        text-align: center;
+        right: unset;
+        background-position: center;
+        background-size: 5rem;
+        background-position-y: 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .slide_tanya {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .images {
+        padding: 4rem;
+    }
+
+
+
+    .buttons {
+        right: -5rem;
+        width: 35%;
+    }
+
+    .name_tanya {
+        top: 14rem;
+        left: 10rem;
+        flex-direction: column;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .john {
+        text-align: center;
+        right: unset;
+        background-position: center;
+        background-size: 5rem;
+        background-position-y: 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .slide_john {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .name_john {
+        top: 14rem;
+        left: 8rem;
+        flex-direction: column;
+        display: flex;
+        margin-top: 2rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    .name_tanya {
+        top: 14rem;
+        margin-top: 1rem;
+        left: 10.8rem;
+    }
+}
+
+@media (max-width:435px) {
+    .name_tanya {
+        top: 14rem;
+        left: 8.8rem;
+        position: absolute;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:376px) {
+    .name_tanya {
+        top: 16rem;
+        left: 6.7rem;
+        position: absolute;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    .name_john {
+        top: 14rem;
+        margin-top: 2rem;
+        left: 7.8rem;
+    }
+}
+
+@media (max-width:435px) {
+    .name_john {
+        top: 15rem;
+        left: 5.5rem;
+        position: absolute;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width:376px) {
+    .name_john {
+        top: 16rem;
+        left: 3.7rem;
+        position: absolute;
+        margin-top: 2rem;
+    }
+}

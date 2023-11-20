@@ -1,0 +1,174 @@
+:root {
+    --Dark-Blue: hsl(240, 38%, 20%);
+    --Grayish-Blue: hsl(240, 18%, 77%);
+    --Font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--Font-family);
+    background-image: url(/images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+.slide_john_image {
+    display: block;
+    transition: opacity 0.5s ease-in;
+}
+
+.slide_tanya_image {
+    display: none;
+    transition: opacity 0.5s ease-in;
+}
+
+.woman_photo {
+    z-index: 2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 50px 0 hsl(224deg 35.11% 38.71% / 65%);
+}
+
+.images {
+    background-image: url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    background-size: contain;
+    padding: 5rem;
+    z-index: 1;
+}
+
+
+.tanya {
+    background-image: url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 31rem;
+    position: relative;
+    right: -8rem;
+    z-index: 10;
+    background-position-x: 4rem;
+    background-position-y: -1rem;
+    top: -4rem;
+    display: none;
+}
+
+.slide_tanya {
+    font-size: 25px;
+    text-align: left;
+    color: hsl(240, 44%, 35%);
+    line-height: 2.2rem;
+    top: 3rem;
+    position: relative;
+    left: 0rem;
+    font-weight: 300;
+    transition: opacity 0.5s ease-in;
+}
+
+.name_tanya {
+    top: 16rem;
+    position: absolute;
+    color: var(--Dark-Blue);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tanya_job {
+    color: var(--Grayish-Blue);
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    right: -7rem;
+    position: relative;
+    top: -1rem;
+}
+
+.next_icon {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: white;
+}
+
+.prev_icon {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background-color: white;
+}
+
+.next_icon:hover,
+.prev_icon:hover {
+    background-color: var(--Dark-Blue);
+
+}
+
+.john {
+    background-image: url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 31rem;
+    position: relative;
+    right: -8rem;
+    z-index: 10;
+    background-position-x: 4rem;
+    background-position-y: -1rem;
+    top: -4rem;
+    transition: opacity 0.5s ease-in;
+}
+
+.slide_john {
+    font-size: 25px;
+    text-align: left;
+    color: hsl(240, 44%, 35%);
+    line-height: 2.2rem;
+    top: 3rem;
+    position: relative;
+    left: 0rem;
+    font-weight: 300;
+    transition: opacity 0.5s ease-in;
+}
+
+
+.name_john {
+    top: 16rem;
+    position: absolute;
+    color: var(--Dark-Blue);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.john_job {
+    color: var(--Grayish-Blue);
+    font-size: 17px;
+}
+
+#tanya,
+#john {
+    transition: opacity 300ms ease-in-out;
+}
+
+.attribution {
+    text-align: center;
+
+}
