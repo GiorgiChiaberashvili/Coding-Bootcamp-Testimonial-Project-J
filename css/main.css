@@ -6,7 +6,7 @@
 
 body {
     font-family: var(--Font-family);
-    background-image: url(/images/pattern-curve.svg);
+    background-image: url(./images/pattern-curve.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
@@ -47,7 +47,7 @@ img {
 }
 
 .images {
-    background-image: url(/images/pattern-bg.svg);
+    background-image: url(./images/pattern-bg.svg);
     background-repeat: no-repeat;
     max-width: 100%;
     background-position: center;
@@ -58,7 +58,7 @@ img {
 
 
 .tanya {
-    background-image: url(/images/pattern-quotes.svg);
+    background-image: url(./images/pattern-quotes.svg);
     background-repeat: no-repeat;
     width: 100%;
     max-width: 31rem;
@@ -124,7 +124,7 @@ img {
 }
 
 .john {
-    background-image: url(/images/pattern-quotes.svg);
+    background-image: url(./images/pattern-quotes.svg);
     background-repeat: no-repeat;
     width: 100%;
     max-width: 31rem;
